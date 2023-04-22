@@ -63,3 +63,16 @@ marca {
   width: 200px;
   height: 70px;
 }
+h1 {
+  margin-bottom: 50px;
+  margin-top: 30px;
+  font-weight: bolder;
+  color: #3bccf8;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+body {
+  background-image: url("../internet-cybersecurity-technology-1024x576-1.webp");
+  background-position: center;
+  background-size: cover;
+}
