@@ -27,57 +27,57 @@ function init(){
 
   //Eventos de click
   uno.onclick = function(e){
-    resultado.textContent = resultado.textContent  + "1 ";
+    resultado.textContent = resultado.textContent  + "1";
 }
 dos.onclick = function(e){
-    resultado.textContent = resultado.textContent  + "2 ";
+    resultado.textContent = resultado.textContent  + "2";
 }
 tres.onclick = function(e){
-    resultado.textContent = resultado.textContent  + "3 ";
+    resultado.textContent = resultado.textContent  + "3";
 }
 cuatro.onclick = function(e){
-    resultado.textContent = resultado.textContent  + "4 ";
+    resultado.textContent = resultado.textContent  + "4";
 }
 cinco.onclick = function(e){
-    resultado.textContent = resultado.textContent  + "5 ";
+    resultado.textContent = resultado.textContent  + "5";
 }
 seis.onclick = function(e){
-    resultado.textContent = resultado.textContent  + "6 ";
+    resultado.textContent = resultado.textContent  + "6";
 }
 siete.onclick = function(e){
-    resultado.textContent = resultado.textContent  + "7 ";
+    resultado.textContent = resultado.textContent  + "7";
 }
 ocho.onclick = function(e){
-    resultado.textContent = resultado.textContent  + "8 ";
+    resultado.textContent = resultado.textContent  + "8";
 }
 nueve.onclick = function(e){
-    resultado.textContent = resultado.textContent  + "9 ";
+    resultado.textContent = resultado.textContent  + "9";
 }
 cero.onclick = function(e){
-    resultado.textContent = resultado.textContent  + "0 ";
+    resultado.textContent = resultado.textContent  + "0";
 }
 reset.onclick = function(e){
     resetear();
 }
 suma.onclick = function(e){
-    resultado.textContent = resultado.textContent  + "+ ";
     operandoa = resultado.textContent;
     operacion = "+";
+    limpiar();
 }
 resta.onclick = function(e){
-    resultado.textContent = resultado.textContent  + "- ";
     operandoa = resultado.textContent;
     operacion = "-";
+    limpiar();
 }
 multiplicacion.onclick = function(e){
-    resultado.textContent = resultado.textContent  + "* ";
     operandoa = resultado.textContent;
     operacion = "*";
+    limpiar();
 }
 division.onclick = function(e){
-    resultado.textContent = resultado.textContent  + "/ ";
     operandoa = resultado.textContent;
     operacion = "/";
+    limpiar();
 }
 igual.onclick = function(e){
     operandob = resultado.textContent;
@@ -117,4 +117,3 @@ function limpiar(){
     resetear();
     resultado.textContent = res;
   }
-  
